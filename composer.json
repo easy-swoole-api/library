@@ -1,0 +1,27 @@
+{
+    "name": "easyapi/library",
+    "type": "library",
+    "description": "easyapi library",
+    "keywords": [
+        "swoole",
+        "framework",
+        "async",
+        "easyswoole"
+    ],
+    "homepage": "https://www.easyswoole.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "XueSi",
+            "email": "1592328848@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EasyApi\\Library\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
